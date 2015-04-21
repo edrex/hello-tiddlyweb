@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "start": "browser-sync start --server --files **/*",
+    "bundle": "jspm bundle-sfx main bundle/main.js --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "jspm": {
     "directories": {},
     "configFile": "system.config.js",
