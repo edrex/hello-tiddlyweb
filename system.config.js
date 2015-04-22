@@ -22,7 +22,7 @@ System.config({
     "fetch": "npm:whatwg-fetch@0.7.0",
     "hello": "github:edrex/hello-component@0.1.6",
     "page": "npm:page@1.6.3",
-    "react": "github:reactjs/react-bower@0.13.2",
+    "react": "npm:react@0.13.2",
     "github:edrex/hello-component@0.1.6": {
       "css": "github:systemjs/plugin-css@0.1.10",
       "react": "npm:react@0.13.2"
@@ -166,6 +166,18 @@ System.config({
       "stream": "github:jspm/nodelibs-stream@0.1.0",
       "string_decoder": "npm:string_decoder@0.10.31"
     },
+    "npm:readable-stream@1.1.13": {
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "core-util-is": "npm:core-util-is@1.0.1",
+      "events": "github:jspm/nodelibs-events@0.1.0",
+      "inherits": "npm:inherits@2.0.1",
+      "isarray": "npm:isarray@0.0.1",
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "stream": "github:jspm/nodelibs-stream@0.1.0",
+      "stream-browserify": "npm:stream-browserify@1.0.0",
+      "string_decoder": "npm:string_decoder@0.10.31",
+      "util": "github:jspm/nodelibs-util@0.1.0"
+    },
     "npm:source-map@0.1.31": {
       "amdefine": "npm:amdefine@0.1.0",
       "fs": "github:jspm/nodelibs-fs@0.1.2",
@@ -181,7 +193,7 @@ System.config({
     "npm:stream-browserify@1.0.0": {
       "events": "github:jspm/nodelibs-events@0.1.0",
       "inherits": "npm:inherits@2.0.1",
-      "readable-stream": "npm:readable-stream@1.0.27-1"
+      "readable-stream": "npm:readable-stream@1.1.13"
     },
     "npm:string_decoder@0.10.31": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
