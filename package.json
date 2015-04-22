@@ -9,6 +9,7 @@
     "configFile": "system.config.js",
     "dependencies": {
       "hello": "github:edrex/hello-component@^0.1.4",
+      "page": "npm:page@^1.6.3",
       "react": "github:reactjs/react-bower@^0.13.2",
       "superagent": "npm:superagent@^1.2.0"
     },

@@ -20,6 +20,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.1.11",
     "core-js": "npm:core-js@0.8.4",
     "hello": "github:edrex/hello-component@0.1.6",
+    "page": "npm:page@1.6.3",
     "react": "github:reactjs/react-bower@0.13.2",
     "superagent": "npm:superagent@1.2.0",
     "github:edrex/hello-component@0.1.6": {
@@ -341,6 +342,10 @@ System.config({
     "npm:os-browserify@0.1.2": {
       "os": "github:jspm/nodelibs-os@0.1.0"
     },
+    "npm:page@1.6.3": {
+      "path-to-regexp": "npm:path-to-regexp@1.0.3",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
     "npm:pako@0.2.6": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
@@ -355,6 +360,9 @@ System.config({
     },
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:path-to-regexp@1.0.3": {
+      "isarray": "npm:isarray@0.0.1"
     },
     "npm:pbkdf2-compat@3.0.2": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
