@@ -19,7 +19,7 @@ In this project, I'll be making various requests to a TiddlyWeb server, and disp
 
 - **Module loading**: [jspm](http://jspm.io/) / [SystemJS](https://github.com/systemjs/systemjs)
 - **Data binding**: [React](https://facebook.github.io/react/)
-- **HTTP client**: [superagent](http://visionmedia.github.io/superagent/)
+- **HTTP client**: [window.fetch](https://fetch.spec.whatwg.org/) [polyfill](https://github.com/github/fetch)
 - **View routing**: [Page.js](http://visionmedia.github.io/page.js/)
 
 ## References

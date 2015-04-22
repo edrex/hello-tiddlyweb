@@ -1,6 +1,6 @@
 import page from 'page';
 import React from 'react';
-import request from 'superagent';
+import _ from 'fetch';
 
 // import Container from './container';
 import AppNav from './nav';
@@ -20,16 +20,15 @@ function renderMain(elt) {
 
 page('/', () => renderMain(<Home/>) )
 page('/bags', () => {
-    request
-      .get("https://tank.peermore.com/bags.json")
-      .set('Accept', 'application/json')
-      .end((err, res) => {
-        if (res.ok) {
-          renderMain(<Bags bags={res.body}/>)
-        } else {
-          alert('Oh no! error ' + res.text);
-        }
-      });
+    var base = "https://tank.peermore.com"
+    window.fetch(`${base}/bags.json`)
+      .then(function(response) {
+        return response.json()
+      }).then(function(json) {
+        renderMain(<Bags bags={json}/>)
+      }).catch(function(ex) {
+        console.log('parsing failed', ex)
+      })
 })
 
 page('*', () => console.log("route not found"))
