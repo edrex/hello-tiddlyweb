@@ -1,7 +1,6 @@
 import React from 'react';
 import page from 'page';
 
-
 export default class extends React.Component {
   handleClick(event) {
     page(this.props.href);

@@ -3,10 +3,9 @@ import React from 'react';
 import _ from 'fetch';
 
 // import Container from './container';
-import AppNav from './nav';
-
-import Home from './home';
-import Bags from './bags';
+import AppNav from './components/nav';
+import Home from './components/home';
+import Bags from './components/bags';
 
 function renderMain(elt) {
   React.render(
