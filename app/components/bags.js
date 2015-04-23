@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LL from './localLink';
+import LocalLink from './localLink';
 
 export default class extends React.Component {
   render() {
@@ -8,7 +8,7 @@ export default class extends React.Component {
       <ul>
         {this.props.bags.map(bag => 
           <li key={bag}>
-            <LL href={`/bags/${bag}`}>{bag}</LL>
+            <LocalLink href={`/bags/${bag}`}>{bag}</LocalLink>
           </li>
         )}
       </ul>

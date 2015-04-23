@@ -1,12 +1,12 @@
 import React from 'react';
-import LL from './localLink';
+import LocalLink from './localLink';
 
 export default class extends React.Component {
   render() {
     return (
       <nav>
-        <LL href="/">Start</LL> |&nbsp;
-        <LL href="/bags">Bags</LL>
+        <LocalLink href="/">Start</LocalLink> |&nbsp;
+        <LocalLink href="/bags">Bags</LocalLink>
       </nav>
     )
   }
